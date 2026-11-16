@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stockly · Stock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/app.css?v=8">
+
+</head>
+<body data-page="stock">
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">Stockly</a>
+    <a class="crumb" href="/">← Market</a>
+    <span class="status" id="status"><span class="dot"></span><span>Connecting…</span></span>
+    <span class="spacer"></span>
+    <div class="seg" id="style" role="radiogroup" aria-label="Chart style">
+      <button type="button" data-v="line" role="radio">Line</button><button type="button" data-v="candles" role="radio">Candles</button>
+    </div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Search any NSE stock" autocomplete="off" spellcheck="false" aria-label="Search stocks">
+      <kbd>/</kbd>
+      <div class="results" id="results" hidden></div>
+    </div>
+    <a class="hlink" href="/docs" target="_blank" rel="noopener">API</a>
+  </div>
+</header>
+<div class="banner" id="banner" hidden><div class="wrap" id="banner-text"></div></div>
+
+<main class="wrap" id="app">
+  <div class="card skel"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Data: NSE public feed, may be delayed. Not investment advice.</span>
+    <span>Charts <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a></span>
+    <span>Fundamentals <a href="https://www.screener.in/" target="_blank" rel="noopener">Screener</a></span>
+    <a href="/docs" target="_blank" rel="noopener">API docs</a>
+  </div>
+</footer>
+
+<div class="sheet-bg" id="sheet" hidden role="dialog" aria-modal="true"></div>
+
+<script src="/static/app.js?v=8" defer></script>
+<script src="/static/stock.js?v=8" defer></script>
+
+</body>
+</html>

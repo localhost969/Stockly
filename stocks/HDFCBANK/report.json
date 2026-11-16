@@ -1,0 +1,118 @@
+{
+  "symbol": "HDFCBANK",
+  "updated": "2026-11-16T20:36:00+05:30",
+  "author": "Antigravity",
+  "question": "analyse HDFCBANK and make its stock page",
+  "stance": "positive",
+  "headline": "Gained 1.55% to ₹816.50 on 62.4% delivery, reclaimed 200-day SMA, and beat all 28 tracked indices",
+  "summary": [
+    "Closed at ₹816.50 (+1.55%) on heavy turnover of ₹2,205.17 Cr (#2 most traded on NSE) with 62.42% delivery volume.",
+    "Outperformed 28 of 28 tracked indices with live data: beat NIFTY 50 (+0.58%) by 0.97 pts, NIFTY 500 (+0.08%) by 1.47 pts, and NIFTY BANK (+0.89%) by 0.66 pts.",
+    "Reclaimed the 200-day SMA (₹781.66) and trades well above 20-day (₹735.61) and 50-day (₹722.86) SMAs, up 22.01% from its 52-week low of ₹669.20.",
+    "Q2 FY27 standalone net profit reached ₹19,510 Cr (+16% YoY vs ₹16,821 Cr) with Gross NPA improving to 1.11% and Net NPA to 0.37%.",
+    "P/E stands at 15.49 vs 15.27 for NIFTY BANK (16.5 on Screener); DII institutional ownership increased to 43.44%."
+  ],
+  "metrics": [
+    {
+      "label": "P/E",
+      "value": "15.49",
+      "note": "sector 15.27 (NIFTY BANK)",
+      "tone": "neutral"
+    },
+    {
+      "label": "Delivery %",
+      "value": "62.42%",
+      "note": "1.69 Cr shares delivered",
+      "tone": "positive"
+    },
+    {
+      "label": "From 52-W Low",
+      "value": "+22.01%",
+      "note": "low ₹669.20 on 28-Oct-2026",
+      "tone": "positive"
+    },
+    {
+      "label": "vs 200-Day SMA",
+      "value": "+4.46%",
+      "note": "SMA 200 at ₹781.66",
+      "tone": "positive"
+    },
+    {
+      "label": "RSI 14",
+      "value": "75.62",
+      "note": "entering overbought zone",
+      "tone": "neutral"
+    },
+    {
+      "label": "Gross / Net NPA",
+      "value": "1.11% / 0.37%",
+      "note": "improved from 1.36% / 0.41%",
+      "tone": "positive"
+    }
+  ],
+
+  "news": [
+    {
+      "title": "HDFC Bank holds above ₹811 for second straight day as rally consolidates",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/hdfc-bank-holds-above-811-for-second-straight-day-as-rally-consolidates/article71692630.ece",
+      "source": "The Hindu BusinessLine",
+      "date": "2026-11-12",
+      "tone": "positive",
+      "why": "Confirms strong price action consolidating above key breakout levels"
+    },
+    {
+      "title": "Thinking about buying the dip in HDFC Bank? Here are the pros and cons.",
+      "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-hdfc-bank-stock-hdfc-bank-share-price/amp-11794395992177.html",
+      "source": "Mint",
+      "date": "2026-11-11",
+      "tone": "neutral",
+      "why": "Evaluates valuation and risk-reward dynamics following the drop from 52-week highs"
+    },
+    {
+      "title": "RIL, HDFC Bank, Axis, Kotak Bank, VBL and Sona BLW shares among plays on FPI reversal",
+      "url": "https://www.msn.com/en-in/money/top-stocks/ril-hdfc-bank-axis-kotak-bank-vbl-and-sona-blw-shares-among-plays-on-fpi-reversal/ar-AA2h7GF6",
+      "source": "Business Today on MSN",
+      "date": "2026-11-10",
+      "tone": "positive",
+      "why": "Highlights institutional FPI rotation back toward large private sector lenders"
+    },
+    {
+      "title": "Why did stock market end mixed today? Sensex gains 512 points, Nifty Bank hits record high",
+      "url": "https://www.cnbctv18.com/market/why-did-stock-market-end-mixed-today-sensex-gains-512-points-nifty-bank-hits-record-high-20034970.htm",
+      "source": "CNBCTV18",
+      "date": "2026-11-16",
+      "tone": "positive",
+      "why": "Points to banking majors leading market gains while broader market breadth declined"
+    }
+  ],
+  "risks": [
+    "RSI 14 at 75.62 is in overbought territory, increasing chances of near-term consolidation or pullback toward the 200-day SMA.",
+    "The stock is still 19.75% below its 52-week high of ₹1,017.50 after experiencing a 32.62% maximum drawdown over the past year.",
+    "Management transition in progress following the 27 Oct 2026 Regulation 30 announcement on MD & CEO succession.",
+    "Contingent liabilities of ₹35,00,416 Cr (noted on Screener) require monitoring as credit cycles evolve."
+  ],
+  "watch": [
+    "Sustainability above the 200-day SMA (₹781.66) and test of the upper Bollinger Band (₹833.81).",
+    "Institutional flow trends: FII holding at 39.39% vs rising DII holding at 43.44%.",
+    "Regulatory and formal announcements regarding the new MD & CEO appointment.",
+    "Q3 FY27 earnings board meeting dates and advance growth guidance."
+  ],
+  "sources": [
+    {
+      "label": "NSE quote",
+      "url": "https://www.nseindia.com/get-quotes/equity?symbol=HDFCBANK"
+    },
+    {
+      "label": "NSE filings",
+      "url": "https://www.nseindia.com/get-quotes/equity?symbol=HDFCBANK#corporate-announcements"
+    },
+    {
+      "label": "Screener fundamentals",
+      "url": "https://www.screener.in/company/HDFCBANK/consolidated/"
+    },
+    {
+      "label": "TradingView chart",
+      "url": "https://www.tradingview.com/chart/?symbol=NSE:HDFCBANK"
+    }
+  ]
+}
